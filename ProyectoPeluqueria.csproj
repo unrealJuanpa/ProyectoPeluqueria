@@ -393,6 +393,8 @@
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\EmpleadoesController.cs" />
     <Compile Include="Controllers\InsumoesController.cs" />
+    <Compile Include="Controllers\MenuBasicoController.cs" />
+    <Compile Include="Controllers\MenuPrincipalPruebaController.cs" />
     <Compile Include="Controllers\PromocionsController.cs" />
     <Compile Include="Controllers\ProveedorsController.cs" />
     <Compile Include="Controllers\Razon_retiro_productoController.cs" />
@@ -484,7 +486,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\MenuBasico\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
@@ -546,6 +550,7 @@
     <Content Include="Views\Tipo_tratamiento\Details.cshtml" />
     <Content Include="Views\Tipo_tratamiento\Edit.cshtml" />
     <Content Include="Views\Tipo_tratamiento\Index.cshtml" />
+    <Content Include="Views\MenuPrincipalPrueba\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
